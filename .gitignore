@@ -216,3 +216,29 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ── Geospatial & Remote Sensing ───────────────────
+*.tif
+*.tiff
+*.img
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.qpj
+*.geojson
+
+# ── Model & Dataset ───────────────────────────────
+*.pkl
+*.csv
+*.h5
+
+# ── Credentials / Tokens ──────────────────────────
+credentials/
+token.json
+service_account.json
+
+# ── OS ────────────────────────────────────────────
+.DS_Store
+Thumbs.db
